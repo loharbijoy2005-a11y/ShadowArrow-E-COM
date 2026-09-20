@@ -14,7 +14,7 @@ const FAQ_DATA: FAQItem[] = [
   {
     id: 'faq-1',
     category: 'Materials & Sizing',
-    question: 'What materials and fabric GSM are used in Shadow Arrow apparel?',
+    question: 'What materials and fabric GSM are used in OmniKart apparel?',
     answer: 'Our signature tees and hoodies are crafted from 350 to 450 GSM 100% organic French Terry combed cotton. They feature drop-shoulder boxy fits, pre-shrunk bio-wash treatment, and high-density matte screen printing.',
   },
   {
@@ -39,7 +39,7 @@ const FAQ_DATA: FAQItem[] = [
     id: 'faq-5',
     category: 'Tax & GST Invoice',
     question: 'Can I get an official GST Tax Invoice with my GSTIN for business tax credit?',
-    answer: 'Yes! Every Shadow Arrow order comes with a government-verified GST Tax Invoice (Form GST REG-06, GSTIN: 19BVKPL6301H1ZH) containing 18% GST breakdown (9% CGST + 9% SGST), HSN code 61091000, and seller details.',
+    answer: 'Yes! Every OmniKart order comes with a government-verified GST Tax Invoice (Form GST REG-06, GSTIN: 19BVKPL6301H1ZH) containing 18% GST breakdown (9% CGST + 9% SGST), HSN code 61091000, and seller details.',
   },
   {
     id: 'faq-6',
@@ -70,7 +70,7 @@ export default function FAQSection() {
             Got Questions? We’ve Got Answers.
           </h2>
           <p className="text-xs text-slate-400 font-mono max-w-xl mx-auto">
-            Everything you need to know about Shadow Arrow products, shipping, COD payments, returns, and GST invoices.
+            Everything you need to know about OmniKart products, shipping, COD payments, returns, and GST invoices.
           </p>
         </div>
 

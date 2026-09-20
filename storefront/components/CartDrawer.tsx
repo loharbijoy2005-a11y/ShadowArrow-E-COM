@@ -40,7 +40,7 @@ export default function CartDrawer() {
                     {totalCount} {totalCount === 1 ? 'Item' : 'Items'}
                   </span>
                 </h2>
-                <p className="text-[10px] text-slate-400 font-mono">SHADOW ARROW Official Bag</p>
+                <p className="text-[10px] text-slate-400 font-mono">OmniKart Official Bag</p>
               </div>
             </div>
             <button

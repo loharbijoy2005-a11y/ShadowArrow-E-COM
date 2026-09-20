@@ -1,11 +1,12 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import HomeClient from '@/components/HomeClient';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
 
-export const metadata = {
-  title: 'SHADOW ARROW | Premium Streetwear & Techwear Store',
-  description: 'Shop the latest oversized boxy-fit tees, heavy-weight 280-450 GSM French Terry hoodies, cargo pants, and cyber sneakers from SHADOW ARROW.',
+export const metadata: Metadata = {
+  title: 'OmniKart | Powered by Shadow Arrow',
+  description: 'Shop the latest oversized boxy-fit tees, heavy-weight 280-450 GSM French Terry hoodies, cargo pants, and cyber sneakers from OmniKart — Powered by Shadow Arrow.',
 };
 
 async function getBanners() {
@@ -17,7 +18,7 @@ async function getBanners() {
     const data = await res.json();
     if (data && data.length > 0) {
       return data.map((b: any) => ({
-        tag: 'SHADOW ARROW OFFICIAL',
+        tag: 'OMNIKART OFFICIAL',
         title: b.heading,
         desc: b.subtext || 'Exclusive streetwear drop engineered for ultimate style.',
         ctaText: 'Shop Now',

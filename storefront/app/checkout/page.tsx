@@ -339,7 +339,7 @@ export default function CheckoutPage() {
           key: RAZORPAY_KEY,
           amount: Math.round(finalPayable * 100),
           currency: 'INR',
-          name: 'SHADOW ARROW',
+          name: 'OmniKart (Powered by Shadow Arrow)',
           description: `Order #${orderId}`,
           handler: async function (response: any) {
             try {
@@ -444,7 +444,7 @@ export default function CheckoutPage() {
             </div>
             <div>
               <h1 className="text-xl sm:text-2xl font-black uppercase text-slate-900 tracking-tight">Secure Payment</h1>
-              <p className="text-[10px] sm:text-xs text-slate-500 font-mono">Encrypted Checkout Gateway • SHADOW ARROW</p>
+              <p className="text-[10px] sm:text-xs text-slate-500 font-mono">Encrypted Checkout Gateway • OmniKart (Powered by Shadow Arrow)</p>
             </div>
           </div>
         </div>

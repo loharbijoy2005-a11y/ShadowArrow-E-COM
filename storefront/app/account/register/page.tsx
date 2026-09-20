@@ -143,7 +143,7 @@ export default function AccountRegisterPage() {
               <UserPlus className="w-8 h-8" />
             </div>
             <h1 className="text-2xl font-black uppercase tracking-tight text-white">Create Account</h1>
-            <p className="text-xs text-slate-400">Join SHADOW ARROW via 1-Click Google or Direct Phone Login.</p>
+            <p className="text-xs text-slate-400">Join OmniKart via 1-Click Google or Direct Phone Login.</p>
           </div>
 
           {error && (

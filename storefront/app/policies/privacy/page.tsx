@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
             <GSTBadgeTooltip />
           </div>
           <h1 className="text-3xl sm:text-4xl font-black uppercase text-slate-900 tracking-tight">Privacy Policy</h1>
-          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • SHADOW ARROW Prime Marketplace</p>
+          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • OmniKart Prime Marketplace (Powered by Shadow Arrow)</p>
         </div>
 
         {customText ? (
@@ -92,8 +92,8 @@ export default function PrivacyPolicyPage() {
                 <span>4. Grievance Redressal & Support Desk</span>
               </h2>
               <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 text-xs font-mono space-y-1">
-                <p className="font-bold text-slate-900 uppercase">SHADOW ARROW Privacy & Grievance Desk</p>
-                <p className="text-slate-500">Registered Entity: SHADOW ARROW Prime Marketplace</p>
+                <p className="font-bold text-slate-900 uppercase">OmniKart Privacy & Grievance Desk (Powered by Shadow Arrow)</p>
+                <p className="text-slate-500">Registered Entity: OmniKart Prime Marketplace (Powered by Shadow Arrow)</p>
                 <p className="text-blue-600 font-bold">Email: support.shadowarrow@gmail.com</p>
                 <p className="text-slate-500">Address: Dapanjuri Road, Bhara, Bankura, West Bengal - 722157</p>
               </div>

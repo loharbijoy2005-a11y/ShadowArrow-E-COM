@@ -19,7 +19,7 @@ export default function TermsOfServicePage() {
             <GSTBadgeTooltip />
           </div>
           <h1 className="text-3xl sm:text-4xl font-black uppercase text-slate-900 tracking-tight">Terms of Service</h1>
-          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • SHADOW ARROW Prime Marketplace</p>
+          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • OmniKart Prime Marketplace (Powered by Shadow Arrow)</p>
         </div>
 
         <div className="bg-white border border-slate-200 rounded-3xl p-8 sm:p-10 shadow-sm space-y-8 text-sm text-slate-600 leading-relaxed">
@@ -31,7 +31,7 @@ export default function TermsOfServicePage() {
               <span>1. Agreement & Acceptance of Terms</span>
             </h2>
             <p>
-              Welcome to SHADOW ARROW Prime Marketplace ("Platform"). These Terms of Service constitute a legally binding agreement between you ("User", "Customer", or "You") and SHADOW ARROW Prime Marketplace regarding your access to and use of our web platform, storefront API, customer account portal, and automated AI styling services.
+              Welcome to OmniKart Prime Marketplace — Powered by Shadow Arrow ("Platform"). These Terms of Service constitute a legally binding agreement between you ("User", "Customer", or "You") and OmniKart Prime Marketplace regarding your access to and use of our web platform, storefront API, customer account portal, and automated AI styling services.
             </p>
             <p>
               By accessing the website, browsing catalog items, interacting with Shadow AI Stylist, registering an account, or purchasing products, you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service, along with our Privacy Policy, Shipping Policy, and Return & Refund Policy. If you do not agree to all terms, you must immediately discontinue use of the Platform.
@@ -64,7 +64,7 @@ export default function TermsOfServicePage() {
               We strive to display product images, fabric composition details, oversized fit parameters, color swatches, and pricing with complete accuracy. However, slight variations in color tone may occur due to screen calibration and monitor display settings.
             </p>
             <p>
-              All prices listed on the Platform are in Indian Rupees (INR) and are inclusive of Goods and Services Tax (GST). SHADOW ARROW reserves the right to adjust pricing, revise promotional drops, or discontinue items without prior notice. Receipt of an electronic order confirmation does not signify final order acceptance. We reserve the right to decline, limit, or cancel any order for reasons including inventory stockout, suspected fraudulent payment, delivery address unserviceability, or pricing display errors. If an order is canceled after payment debit, a full 100% refund is credited back to the original source payment method within 5-7 business days.
+              All prices listed on the Platform are in Indian Rupees (INR) and are inclusive of Goods and Services Tax (GST). OmniKart reserves the right to adjust pricing, revise promotional drops, or discontinue items without prior notice. Receipt of an electronic order confirmation does not signify final order acceptance. We reserve the right to decline, limit, or cancel any order for reasons including inventory stockout, suspected fraudulent payment, delivery address unserviceability, or pricing display errors. If an order is canceled after payment debit, a full 100% refund is credited back to the original source payment method within 5-7 business days.
             </p>
           </section>
 
@@ -95,8 +95,8 @@ export default function TermsOfServicePage() {
               These Terms of Service shall be governed by and construed in accordance with the laws of the Republic of India. Any disputes or legal claims arising out of or in connection with these terms shall be subject to the exclusive jurisdiction of the competent courts located in Kolkata, West Bengal, India.
             </p>
             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 text-xs font-mono space-y-1">
-              <p className="font-bold text-slate-900 uppercase">SHADOW ARROW Legal Department</p>
-              <p className="text-slate-500">Registered Entity: SHADOW ARROW Prime Marketplace</p>
+              <p className="font-bold text-slate-900 uppercase">OmniKart Legal Department (Powered by Shadow Arrow)</p>
+              <p className="text-slate-500">Registered Entity: OmniKart Prime Marketplace (Powered by Shadow Arrow)</p>
               <p className="text-blue-600 font-bold">Support Email: support.shadowarrow@gmail.com</p>
             </div>
           </section>

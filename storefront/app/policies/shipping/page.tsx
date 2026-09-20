@@ -19,7 +19,7 @@ export default function ShippingPolicyPage() {
             <GSTBadgeTooltip />
           </div>
           <h1 className="text-3xl sm:text-4xl font-black uppercase text-slate-900 tracking-tight">Shipping & Delivery Policy</h1>
-          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • SHADOW ARROW Pan-India Express</p>
+          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • OmniKart Pan-India Express (Powered by Shadow Arrow)</p>
         </div>
 
         <div className="bg-white border border-slate-200 rounded-3xl p-8 sm:p-10 shadow-sm space-y-8 text-sm text-slate-600 leading-relaxed">
@@ -31,7 +31,7 @@ export default function ShippingPolicyPage() {
               <span>1. Order Dispatch & Processing Timelines</span>
             </h2>
             <p>
-              At SHADOW ARROW Prime Marketplace, we prioritize rapid fulfillment and pristine package safety for all streetwear drops and techwear gear. Once your order is confirmed via Razorpay Online Payment or Cash on Delivery (COD) verification, our warehouse team initiates quality inspection, anti-tamper poly-bagging, and dispatch processing.
+              At OmniKart Prime Marketplace (Powered by Shadow Arrow), we prioritize rapid fulfillment and pristine package safety for all streetwear drops and techwear gear. Once your order is confirmed via Razorpay Online Payment or Cash on Delivery (COD) verification, our warehouse team initiates quality inspection, anti-tamper poly-bagging, and dispatch processing.
             </p>
             <p>
               All standard orders are dispatched from our centralized fulfillment center within <strong>24 to 48 business hours</strong> (excluding Sundays and national public holidays). During high-demand limited streetwear drop campaigns, dispatch timelines may extend up to 72 hours. You will receive an automated order status confirmation SMS and email as soon as your items pass quality verification.
@@ -107,7 +107,7 @@ export default function ShippingPolicyPage() {
               If a package is returned to our warehouse due to an incorrect or incomplete shipping address, recipient unavailability, or refusal to accept a COD order, our customer support team will contact you to re-confirm delivery details. Re-shipping an RTO package may incur a nominal re-dispatch freight fee of ₹99.
             </p>
             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 text-xs font-mono space-y-1">
-              <p className="font-bold text-slate-900 uppercase">SHADOW ARROW Express Logistics Desk</p>
+              <p className="font-bold text-slate-900 uppercase">OmniKart Express Logistics Desk (Powered by Shadow Arrow)</p>
               <p className="text-slate-500">Support Hours: Monday – Saturday (10:00 AM – 7:00 PM IST)</p>
               <p className="text-blue-600 font-bold">Logistics Helpline Email: support.shadowarrow@gmail.com</p>
             </div>

@@ -181,8 +181,9 @@ export default function TaxInvoiceModal({ order, onClose }: TaxInvoiceModalProps
           {/* Header Bar */}
           <div className="flex justify-between items-start border-b-2 border-slate-900 pb-3">
             <div>
-              <h1 className="text-2xl font-black tracking-tight text-slate-900">SHADOW ARROW</h1>
-              <p className="text-[10px] font-bold text-slate-600 uppercase tracking-wider">OFFICIAL GST TAX INVOICE / BILL OF SUPPLY</p>
+              <h1 className="text-2xl font-black tracking-tight text-slate-900">OmniKart</h1>
+              <p className="text-[10px] font-bold text-blue-700 uppercase tracking-wider">POWERED BY SHADOW ARROW</p>
+              <p className="text-[10px] font-bold text-slate-600 uppercase tracking-wider mt-0.5">OFFICIAL GST TAX INVOICE / BILL OF SUPPLY</p>
               <p className="text-[10px] text-slate-500">Original for Recipient</p>
             </div>
             <div className="text-right text-[10px]">
@@ -199,7 +200,7 @@ export default function TaxInvoiceModal({ order, onClose }: TaxInvoiceModalProps
                 <td className="w-1/2 align-top pr-2">
                   <div className="bg-slate-50 p-3 rounded-lg border border-slate-200">
                     <p className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">Sold By (Registered Seller)</p>
-                    <p className="font-bold text-slate-900 text-xs mt-0.5">SHADOW ARROW (Bijoy Lohar)</p>
+                    <p className="font-bold text-slate-900 text-xs mt-0.5">OmniKart - Powered by Shadow Arrow (Bijoy Lohar)</p>
                     <p className="text-slate-600 text-[10px] leading-tight mt-0.5">
                       C/O BINOD LOHAR, DAPANJURI ROAD, BHARA, Dapanjuri, District: Bankura, West Bengal - 722157
                     </p>
@@ -338,7 +339,7 @@ export default function TaxInvoiceModal({ order, onClose }: TaxInvoiceModalProps
               <p>7-Day Easy Return & Replacement Policy across India. Terms apply.</p>
             </div>
             <div className="text-right">
-              <p className="font-bold text-slate-900">For SHADOW ARROW</p>
+              <p className="font-bold text-slate-900">For OmniKart (Powered by Shadow Arrow)</p>
               <p className="text-slate-600 italic">Computer Generated Tax Invoice</p>
               <p className="font-bold text-slate-800 uppercase">NO SIGNATURE REQUIRED</p>
             </div>

@@ -22,7 +22,7 @@ export default function SizeGuideModal({ onClose }: SizeGuideModalProps) {
         </div>
 
         <p className="text-xs text-gray-600">
-          All SHADOW ARROW heavy tees and hoodies are engineered with an <strong>Oversized Drop-Shoulder Boxy Fit</strong>. If you prefer a standard fitted silhouette, we recommend sizing down one size.
+          All OmniKart heavy tees and hoodies are engineered with an <strong>Oversized Drop-Shoulder Boxy Fit</strong>. If you prefer a standard fitted silhouette, we recommend sizing down one size.
         </p>
 
         <div className="overflow-x-auto border border-gray-200 rounded-xl">

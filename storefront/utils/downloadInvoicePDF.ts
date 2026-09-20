@@ -71,8 +71,9 @@ export async function downloadDirectTaxInvoicePDF(order: any) {
       <table style="width: 100%; border-collapse: collapse; border-bottom: 2px solid #000000; padding-bottom: 10px; margin-bottom: 12px; font-family: monospace;">
         <tr>
           <td style="vertical-align: top; text-align: left;">
-            <div style="font-size: 24px; font-weight: 900; letter-spacing: -0.5px; color: #000000;">SHADOW ARROW</div>
-            <div style="font-size: 9.5px; font-weight: 700; color: #000000; text-transform: uppercase;">OFFICIAL GST TAX INVOICE / BILL OF SUPPLY</div>
+            <div style="font-size: 24px; font-weight: 900; letter-spacing: -0.5px; color: #000000;">OmniKart</div>
+            <div style="font-size: 9px; font-weight: bold; color: #1d4ed8; text-transform: uppercase;">POWERED BY SHADOW ARROW</div>
+            <div style="font-size: 9.5px; font-weight: 700; color: #000000; text-transform: uppercase; margin-top: 2px;">OFFICIAL GST TAX INVOICE / BILL OF SUPPLY</div>
             <div style="font-size: 9px; color: #475569; margin-top: 2px;">Original for Recipient</div>
           </td>
           <td style="vertical-align: top; text-align: right; font-size: 10px;">
@@ -89,7 +90,7 @@ export async function downloadDirectTaxInvoicePDF(order: any) {
           <td style="width: 50%; vertical-align: top; padding-right: 6px;">
             <div style="background: #f8fafc; padding: 10px; border: 1px solid #94a3b8; border-radius: 6px; color: #000000;">
               <div style="font-size: 8px; font-weight: 700; color: #475569; text-transform: uppercase;">Sold By (Registered Seller)</div>
-              <div style="font-weight: bold; font-size: 11px; margin-top: 2px; color: #000000;">SHADOW ARROW (Bijoy Lohar)</div>
+              <div style="font-weight: bold; font-size: 11px; margin-top: 2px; color: #000000;">OmniKart - Powered by Shadow Arrow (Bijoy Lohar)</div>
               <div style="font-size: 9.5px; color: #000000; margin-top: 2px; line-height: 1.3;">
                 C/O BINOD LOHAR, DAPANJURI ROAD, BHARA, Dapanjuri, District: Bankura, West Bengal - 722157
               </div>
@@ -98,7 +99,7 @@ export async function downloadDirectTaxInvoicePDF(order: any) {
           </td>
           <td style="width: 50%; vertical-align: top; padding-left: 6px;">
             <div style="background: #f8fafc; padding: 10px; border: 1px solid #94a3b8; border-radius: 6px; text-align: right; line-height: 1.5; color: #000000;">
-              <div>Invoice No: <strong style="color: #000000;">INV-SA-${order.order_id}</strong></div>
+              <div>Invoice No: <strong style="color: #000000;">INV-OK-${order.order_id}</strong></div>
               <div>Invoice Date: <strong>${invoiceDate}</strong></div>
               <div>Order ID: <strong style="color: #1d4ed8;">#${order.order_id}</strong></div>
               <div>Payment Mode: <strong style="text-transform: uppercase; color: #000000;">${order.payment_method === 'COD' ? 'CASH ON DELIVERY (COD)' : 'PREPAID (ONLINE)'}</strong></div>
@@ -195,7 +196,7 @@ export async function downloadDirectTaxInvoicePDF(order: any) {
             <div>7-Day Easy Return Policy across India. Brand warranty claims require this invoice.</div>
           </td>
           <td style="vertical-align: top; text-align: right;">
-            <div style="font-weight: bold; color: #000000;">For SHADOW ARROW</div>
+            <div style="font-weight: bold; color: #000000;">For OmniKart (Powered by Shadow Arrow)</div>
             <div style="font-style: italic;">Computer Generated Tax Invoice</div>
             <div style="font-weight: bold;">NO SIGNATURE REQUIRED</div>
           </td>
@@ -213,7 +214,7 @@ export async function downloadDirectTaxInvoicePDF(order: any) {
     const html2pdfModule = (await import('html2pdf.js')).default;
     const opt: any = {
       margin: [6, 8, 6, 8],
-      filename: `SHADOW_ARROW_TAX_INVOICE_${order.order_id}.pdf`,
+      filename: `OMNIKART_TAX_INVOICE_${order.order_id}.pdf`,
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: {
         scale: 2,

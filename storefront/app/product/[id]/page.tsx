@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!product) {
     return {
-      title: 'Product Not Found | SHADOW ARROW',
+      title: 'Product Not Found | OmniKart',
       description: 'The requested streetwear or techwear item could not be found.',
     };
   }

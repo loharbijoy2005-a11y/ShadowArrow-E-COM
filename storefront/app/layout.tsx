@@ -12,28 +12,28 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://shadowarrow.com';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'SHADOW ARROW | Prime Marketplace Streetwear & Techwear',
-    template: '%s | SHADOW ARROW',
+    default: 'OmniKart | Powered by Shadow Arrow',
+    template: '%s | OmniKart (Powered by Shadow Arrow)',
   },
-  description: 'Official online store for SHADOW ARROW. Heavyweight 280-450 GSM French Terry cotton t-shirts, hoodies, cargo pants, and cyber footwear.',
-  keywords: ['streetwear', 'techwear', 'oversized t-shirts', 'heavyweight cotton', 'cargo pants', 'cyber footwear', 'street fashion', 'baggy fits'],
-  authors: [{ name: 'SHADOW ARROW' }],
-  creator: 'SHADOW ARROW',
-  publisher: 'SHADOW ARROW',
+  description: 'Official online store for OmniKart — Powered by Shadow Arrow. Heavyweight 280-450 GSM French Terry cotton t-shirts, hoodies, cargo pants, and cyber footwear.',
+  keywords: ['omnikart', 'streetwear', 'techwear', 'oversized t-shirts', 'heavyweight cotton', 'cargo pants', 'cyber footwear', 'street fashion', 'baggy fits'],
+  authors: [{ name: 'OmniKart (Powered by Shadow Arrow)' }],
+  creator: 'OmniKart',
+  publisher: 'OmniKart',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'SHADOW ARROW | Prime Marketplace Streetwear & Techwear',
-    description: 'Official online store for SHADOW ARROW. Heavyweight 280-450 GSM French Terry cotton t-shirts, hoodies, cargo pants, and cyber footwear.',
+    title: 'OmniKart | Powered by Shadow Arrow',
+    description: 'Official online store for OmniKart — Powered by Shadow Arrow. Heavyweight 280-450 GSM French Terry cotton t-shirts, hoodies, cargo pants, and cyber footwear.',
     url: SITE_URL,
-    siteName: 'SHADOW ARROW',
+    siteName: 'OmniKart (Powered by Shadow Arrow)',
     images: [
       {
         url: '/icon.jpg', // Using our brand logo as the default sharing image
         width: 800,
         height: 800,
-        alt: 'SHADOW ARROW Brand Logo',
+        alt: 'OmniKart Brand Logo',
       },
     ],
     locale: 'en_US',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SHADOW ARROW | Streetwear & Techwear',
-    description: 'Official online store for SHADOW ARROW. Heavyweight 280-450 GSM French Terry cotton t-shirts, hoodies, cargo pants, and cyber footwear.',
+    title: 'OmniKart | Powered by Shadow Arrow',
+    description: 'Official online store for OmniKart — Powered by Shadow Arrow. Heavyweight 280-450 GSM French Terry cotton t-shirts, hoodies, cargo pants, and cyber footwear.',
     images: ['/icon.jpg'],
   },
   icons: {
@@ -50,7 +50,6 @@ export const metadata: Metadata = {
     apple: '/icon.jpg',
   },
 };
-
 
 export default function RootLayout({
   children,
