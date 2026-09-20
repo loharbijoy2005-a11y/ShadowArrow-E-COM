@@ -12,7 +12,7 @@ const API_URL =
     : 'https://shadow-arrow-backend.onrender.com');
 
 const DEFAULT_PRIVACY_POLICY = `1. Information Collection & Scope
-SHADOW ARROW Prime Marketplace ("we", "us", or "our") respects the privacy rights of all users and online visitors. This Privacy Policy details how we collect, store, process, transfer, and protect your personal identification information when you browse our website, interact with Shadow AI Stylist, or place an order for streetwear apparel, footwear, and accessories.
+OmniKart Prime Marketplace — Powered by Shadow Arrow ("we", "us", or "our") respects the privacy rights of all users and online visitors. This Privacy Policy details how we collect, store, process, transfer, and protect your personal identification information when you browse our website, interact with OmniKart AI Stylist, or place an order for streetwear apparel, footwear, and accessories.
 
 We collect information directly provided by you during account registration, checkout, or customer service communications. This includes your full legal name, shipping and billing addresses, primary telephone number, email address, pincode, size preferences, and specific delivery instructions.
 
@@ -20,14 +20,14 @@ We collect information directly provided by you during account registration, che
 Your personal information is strictly processed for legitimate business operations and legal compliance under the Information Technology Act, 2000, and Consumer Protection (E-Commerce) Rules, 2020 of India. Specifically:
 - Process customer orders, verify transaction authenticity, and issue official GST Tax Invoices.
 - Dispatch packages via authorized Pan-India logistics partners (BlueDart Express, Delhivery, Expressbees) and transmit real-time SMS/Email AWB tracking links.
-- Provide personalized fashion stylist recommendations via Shadow AI Stylist.
+- Provide personalized fashion stylist recommendations via OmniKart AI Stylist.
 - Maintain financial auditing records in compliance with Indian GST taxation laws.
 
 3. Payment Gateway & Third-Party Processing
-All online payment transactions (UPI, Credit Cards, Debit Cards, NetBanking, and Digital Wallets) are securely routed and processed through Razorpay Software Private Limited. SHADOW ARROW does NOT store, record, or retain raw credit card numbers, CVVs, card expiration dates, bank login credentials, or UPI PINs on our servers.
+All online payment transactions (UPI, Credit Cards, Debit Cards, NetBanking, and Digital Wallets) are securely routed and processed through Razorpay Software Private Limited. OmniKart does NOT store, record, or retain raw credit card numbers, CVVs, card expiration dates, bank login credentials, or UPI PINs on our servers.
 
 4. Grievance Redressal & Statutory Officer
-SHADOW ARROW Privacy & Grievance Desk
+OmniKart Privacy & Grievance Desk (Powered by Shadow Arrow)
 Registered Entity: SHADOW ARROW Prime Marketplace
 GSTIN: 19BVKPL6301H1ZH
 Support Email: support.shadowarrow@gmail.com

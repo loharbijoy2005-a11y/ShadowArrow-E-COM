@@ -114,7 +114,7 @@ export default function AccountRegisterPage() {
       const res = await axios.post(`${API_URL}/api/v1/auth/phone-login`, {
         name: fullName.toUpperCase().trim(),
         phone: phone.trim(),
-        email: `${phone.trim()}@shadowarrow.in`,
+        email: `${phone.trim()}@omnikart.in`,
       });
 
       const userObj = {
