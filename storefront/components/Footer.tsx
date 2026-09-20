@@ -86,9 +86,14 @@ export default function Footer() {
               <div className="sa_logo_badge w-8 h-8 rounded-lg text-xs font-black shadow-md flex items-center justify-center">
                 OK
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col justify-center">
                 <span className="shadow_arrow_logo font-black text-lg text-white uppercase tracking-tight leading-none">OMNIKART</span>
-                <span className="text-[9px] text-blue-400 font-mono">Powered by Shadow Arrow</span>
+                <div className="flex items-center space-x-1 pt-0.5">
+                  <span className="text-[9px] text-slate-400 font-medium lowercase tracking-normal">powered by</span>
+                  <span className="font-sora font-black text-[10px] tracking-wider uppercase text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-400 to-indigo-400 drop-shadow-[0_0_8px_rgba(0,224,255,0.4)]">
+                    SHADOW ARROW
+                  </span>
+                </div>
               </div>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
