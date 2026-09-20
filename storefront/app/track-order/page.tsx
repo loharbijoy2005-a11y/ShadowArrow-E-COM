@@ -145,7 +145,7 @@ export default function TrackOrderPage() {
                     Order <strong>#{order.order_id}</strong> has been handed over to <strong>{order.customer_name}</strong> at <strong>{order.shipping_address}</strong>.
                   </p>
                   <p className="text-[11px] text-emerald-700 font-mono font-semibold pt-1">
-                    Thank you for shopping with SHADOW ARROW Prime Marketplace!
+                    Thank you for shopping with OmniKart Prime Marketplace (Powered by Shadow Arrow)!
                   </p>
                 </div>
               </div>

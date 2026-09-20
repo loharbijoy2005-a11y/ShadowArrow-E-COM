@@ -102,11 +102,16 @@ export default function Header({ onSearch, onToggleAI }: HeaderProps) {
         {/* Brand Logo */}
         <Link href="/" className="flex items-center space-x-2.5 sm:space-x-3 group">
           <div className="sa_logo_badge w-9 h-9 border border-[#00e0ff]/60 md:border-white/80 bg-[#121414] md:bg-white text-[#00e0ff] md:text-[#0f172a] font-sora font-black text-sm tracking-tight flex items-center justify-center shadow-lg rounded-lg">
-            SA
+            OK
           </div>
-          <span className="shadow_arrow_logo font-sora md:font-black font-extrabold text-lg sm:text-xl tracking-widest text-white uppercase group-hover:text-[#00e0ff] transition-colors">
-            SHADOW ARROW
-          </span>
+          <div className="flex flex-col justify-center">
+            <span className="shadow_arrow_logo font-sora md:font-black font-extrabold text-lg sm:text-xl tracking-wider text-white uppercase group-hover:text-[#00e0ff] transition-colors leading-tight">
+              OMNIKART
+            </span>
+            <span className="text-[9px] text-cyan-400/90 font-medium tracking-wide leading-none font-mono">
+              Powered by Shadow Arrow
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation Links */}

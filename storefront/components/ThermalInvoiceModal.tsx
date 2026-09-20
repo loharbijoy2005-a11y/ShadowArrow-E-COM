@@ -129,7 +129,8 @@ export default function ThermalInvoiceModal({ order, onClose }: ThermalInvoiceMo
           
           {/* Header Block */}
           <div className="text-center border-b-2 border-black pb-2 space-y-0.5">
-            <h1 className="text-xl font-black tracking-tighter uppercase">SHADOW ARROW</h1>
+            <h1 className="text-xl font-black tracking-tighter uppercase">OmniKart</h1>
+            <p className="font-bold text-[8px] uppercase tracking-wider text-black">POWERED BY SHADOW ARROW</p>
             <p className="font-bold text-[9px] uppercase">PREMIUM STREETWEAR APPAREL</p>
             <p className="text-[9px]">GSTIN: <strong>19BVKPL6301H1ZH</strong></p>
             <p className="text-[8px]">Address: C/O BINOD LOHAR, DAPANJURI ROAD, BHARA, Dapanjuri, Bankura, WB - 722157</p>

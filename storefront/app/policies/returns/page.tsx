@@ -19,7 +19,7 @@ export default function ReturnsPolicyPage() {
             <GSTBadgeTooltip />
           </div>
           <h1 className="text-3xl sm:text-4xl font-black uppercase text-slate-900 tracking-tight">Return & Refund Policy</h1>
-          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • SHADOW ARROW Prime Marketplace</p>
+          <p className="text-xs text-slate-500 font-mono">Effective Date: August 16, 2026 • OmniKart Prime Marketplace (Powered by Shadow Arrow)</p>
         </div>
 
         <div className="bg-white border border-slate-200 rounded-3xl p-8 sm:p-10 shadow-sm space-y-8 text-sm text-slate-600 leading-relaxed">
@@ -31,7 +31,7 @@ export default function ReturnsPolicyPage() {
               <span>1. 7-Day Easy Return & Exchange Window</span>
             </h2>
             <p>
-              SHADOW ARROW Prime Marketplace stands behind the craftsmanship, heavy cotton weight, and fit of all our apparel and cyber footwear. We offer a customer-centric <strong>7-Day Easy Return and Size Exchange Policy</strong> starting from the calendar date of physical package delivery.
+              OmniKart Prime Marketplace (Powered by Shadow Arrow) stands behind the craftsmanship, heavy cotton weight, and fit of all our apparel and cyber footwear. We offer a customer-centric <strong>7-Day Easy Return and Size Exchange Policy</strong> starting from the calendar date of physical package delivery.
             </p>
             <p>
               If your oversized tee, heavy hoodie, cargo pants, or techwear sneakers do not fit as expected, or if you are dissatisfied with your purchase, you may initiate a return or size exchange request within seven (7) days of receiving your order.
@@ -111,7 +111,7 @@ export default function ReturnsPolicyPage() {
               </div>
             </div>
             <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 text-xs font-mono space-y-1 mt-4">
-              <p className="font-bold text-slate-900 uppercase">SHADOW ARROW Returns & Refunds Desk</p>
+              <p className="font-bold text-slate-900 uppercase">OmniKart Returns & Refunds Desk (Powered by Shadow Arrow)</p>
               <p className="text-slate-500">Support Hours: Monday – Saturday (10:00 AM – 7:00 PM IST)</p>
               <p className="text-blue-600 font-bold">Support Email: support.shadowarrow@gmail.com</p>
             </div>

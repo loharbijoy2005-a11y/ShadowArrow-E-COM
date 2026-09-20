@@ -219,7 +219,7 @@ export default function AccountLoginPage() {
             <div className="inline-flex p-3 bg-slate-900 text-white rounded-2xl mb-1">
               <User className="w-8 h-8" />
             </div>
-            <h1 className="text-2xl font-black uppercase tracking-tight text-slate-900">SHADOW ARROW Auth</h1>
+            <h1 className="text-2xl font-black uppercase tracking-tight text-slate-900">OmniKart Auth</h1>
             <p className="text-xs text-slate-500">Sign in via 1-Click Google or Direct 10-Digit Phone Login.</p>
           </div>
 

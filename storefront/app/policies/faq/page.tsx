@@ -113,7 +113,7 @@ export default function FAQPage() {
             Frequently Asked Questions (FAQ)
           </h1>
           <p className="text-xs text-slate-500 font-mono">
-            Last Updated: August 18, 2026 • SHADOW ARROW Prime Marketplace
+            Last Updated: August 18, 2026 • OmniKart Prime Marketplace (Powered by Shadow Arrow)
           </p>
         </div>
 

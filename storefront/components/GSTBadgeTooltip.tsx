@@ -71,7 +71,7 @@ export default function GSTBadgeTooltip({
             <div className="grid grid-cols-2 gap-2 text-[10px]">
               <div className="bg-slate-800/50 p-2 rounded-xl border border-slate-700/50 space-y-0.5">
                 <span className="text-slate-400 uppercase block">Trade Name</span>
-                <span className="font-bold text-white block truncate">Shadow Arrow</span>
+                <span className="font-bold text-white block truncate">OmniKart (Powered by Shadow Arrow)</span>
               </div>
               <div className="bg-slate-800/50 p-2 rounded-xl border border-slate-700/50 space-y-0.5">
                 <span className="text-slate-400 uppercase block">Legal Name</span>

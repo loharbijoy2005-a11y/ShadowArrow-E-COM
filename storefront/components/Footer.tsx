@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -83,10 +83,13 @@ export default function Footer() {
           {/* Brand Bio */}
           <div className="col-span-2 md:col-span-1 space-y-3">
             <div className="flex items-center space-x-2 group">
-              <div className="sa_logo_badge w-8 h-8 rounded-lg text-xs font-black shadow-md">
-                SA
+              <div className="sa_logo_badge w-8 h-8 rounded-lg text-xs font-black shadow-md flex items-center justify-center">
+                OK
               </div>
-              <span className="shadow_arrow_logo font-black text-lg text-white uppercase tracking-tight">SHADOW ARROW</span>
+              <div className="flex flex-col">
+                <span className="shadow_arrow_logo font-black text-lg text-white uppercase tracking-tight leading-none">OMNIKART</span>
+                <span className="text-[9px] text-blue-400 font-mono">Powered by Shadow Arrow</span>
+              </div>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed">
               Streetwear and technical lifestyle apparel engineered for extreme comfort, boxy silhouettes, and high-density cotton construction.
@@ -163,7 +166,7 @@ export default function Footer() {
 
         {/* Bottom Bar with Copyright */}
         <div className="pt-6 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 font-mono gap-4">
-          <p>© {new Date().getFullYear()} SHADOW ARROW Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} OmniKart (Powered by Shadow Arrow). All rights reserved.</p>
           <p>Support: support.shadowarrow@gmail.com</p>
         </div>
       </div>
