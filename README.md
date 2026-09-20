@@ -300,6 +300,6 @@ This project is licensed under the **MIT License**. See [`LICENSE`](./LICENSE) f
 
 <br/>
 
-*© 2025 SHADOW ARROW Inc. All rights reserved.*
+*© 2026 OmniKart (Powered by Shadow Arrow). All rights reserved.*
 
 </div>
