@@ -105,12 +105,15 @@ export default function Header({ onSearch, onToggleAI }: HeaderProps) {
             OK
           </div>
           <div className="flex flex-col justify-center">
-            <span className="shadow_arrow_logo font-sora md:font-black font-extrabold text-lg sm:text-xl tracking-wider text-white uppercase group-hover:text-[#00e0ff] transition-colors leading-tight">
+            <span className="shadow_arrow_logo font-sora md:font-black font-extrabold text-lg sm:text-xl tracking-wider text-white uppercase group-hover:text-cyan-400 transition-colors leading-none">
               OMNIKART
             </span>
-            <span className="text-[9px] text-cyan-400/90 font-medium tracking-wide leading-none font-mono">
-              Powered by Shadow Arrow
-            </span>
+            <div className="flex items-center space-x-1 pt-0.5">
+              <span className="text-[9px] text-slate-400 font-medium lowercase tracking-normal">powered by</span>
+              <span className="font-sora font-black text-[10px] tracking-wider uppercase text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-400 to-indigo-400 drop-shadow-[0_0_8px_rgba(0,224,255,0.4)]">
+                SHADOW ARROW
+              </span>
+            </div>
           </div>
         </Link>
 
