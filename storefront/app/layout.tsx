@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import TrackOrderBubbleModal from '@/components/TrackOrderBubbleModal';
 import ThemeProvider from '@/components/ThemeProvider';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://shadowarrow.in';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://omnikart.in';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

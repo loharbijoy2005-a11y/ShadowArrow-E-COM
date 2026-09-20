@@ -167,7 +167,7 @@ export default function HomeClient({ initialBanners, initialProducts, initialHas
               className="bg-[#121414]/80 border border-[#343535] text-[#e3e2e2] font-sora font-bold text-xs px-8 py-4 uppercase tracking-[0.1em] hover:border-[#00e0ff] hover:text-[#00e0ff] transition-all duration-300 active:scale-95 w-full flex items-center justify-center space-x-2 backdrop-blur-sm"
             >
               <Bot className="w-4 h-4 text-[#00e0ff]" />
-              <span>Shadow AI Lab</span>
+              <span>OmniKart AI Lab</span>
             </button>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function HomeClient({ initialBanners, initialProducts, initialHas
                 className="flex items-center space-x-2 px-5 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs uppercase tracking-wider rounded-xl border border-slate-700 transition"
               >
                 <Bot className="w-4 h-4 text-blue-400" />
-                <span>Shadow AI</span>
+                <span>OmniKart AI</span>
               </button>
             </div>
           </div>

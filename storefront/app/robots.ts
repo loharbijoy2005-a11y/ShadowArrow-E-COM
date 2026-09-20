@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://shadowarrow.in';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://omnikart.in';
   return {
     rules: {
       userAgent: '*',

@@ -41,7 +41,7 @@ func GetBanners(c *gin.Context) {
 		banners = []BannerItem{
 			{
 				ID:         "1",
-				Heading:    "SHADOW ARROW PREMIUM OVERSIZED COLLECTION",
+				Heading:    "OMNIKART PREMIUM OVERSIZED COLLECTION",
 				Subtext:    "Crafted from heavy 350-450 GSM French Terry cotton. Signature drop-shoulder boxy fits engineered for urban comfort.",
 				ImageURL:   "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
 				TargetLink: "/product/over-1",
