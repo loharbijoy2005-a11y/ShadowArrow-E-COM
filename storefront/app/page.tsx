@@ -19,7 +19,7 @@ async function getBanners() {
     if (data && data.length > 0) {
       return data.map((b: any) => ({
         tag: 'OMNIKART OFFICIAL',
-        title: b.heading,
+        title: (b.heading || '').replace(/SHADOW ARROW/gi, 'OMNIKART'),
         desc: b.subtext || 'Exclusive streetwear drop engineered for ultimate style.',
         ctaText: 'Shop Now',
         ctaLink: b.target_link || '#catalog',
