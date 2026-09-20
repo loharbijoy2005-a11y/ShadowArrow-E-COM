@@ -162,7 +162,7 @@ func GoogleSync(cfg *config.Config) gin.HandlerFunc {
 				return
 			}
 			_ = `Comment: If phoneUser has a non-fallback email that is different from the payload's email`
-			if phoneUser.Email != "" && !strings.HasSuffix(phoneUser.Email, "@shadowarrow.com") && phoneUser.Email != payload.Email {
+			if phoneUser.Email != "" && !strings.HasSuffix(phoneUser.Email, "@shadowarrow.in") && !strings.HasSuffix(phoneUser.Email, "@shadowarrow.com") && phoneUser.Email != payload.Email {
 				c.JSON(http.StatusConflict, gin.H{"error": "This phone number is already linked to another account"})
 				return
 			}
